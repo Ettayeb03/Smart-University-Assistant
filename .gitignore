@@ -1,0 +1,42 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Secrets et variables d'environnement
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs et fichiers temporaires
+*.log
+*.tmp
+
+# Bases de données locales
+*.db
+*.sqlite
+*.sqlite3
+
+# Modèles IA et gros fichiers générés
+*.pth
+*.pt
+*.onnx
+*.safetensors

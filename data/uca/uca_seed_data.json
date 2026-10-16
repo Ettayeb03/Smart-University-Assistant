@@ -1,0 +1,624 @@
+{
+  "dataset_name": "Smart University Assistant - UCA public seed dataset",
+  "collected_at_utc": "2026-10-16T21:13:13.693985+00:00",
+  "scope_note": "Version enrichie par recherche des pages publiques officielles UCA consultées le 16 octobre 2026. Dataset de départ substantiellement élargi mais non exhaustif : il ne contient pas toutes les pages, tous les PDF ni tous les sous-sites. Les appels datés doivent être revalidés avant usage.",
+  "sources": {
+    "home": "https://www.uca.ma/fr",
+    "establishments": "https://www.uca.ma/fr/etablissements",
+    "formations": "https://www.uca.ma/fr/formations",
+    "centres": "https://www.uca.ma/fr/centres",
+    "admissions_2026_2027": "https://www.uca.ma/fr/news/lancement-des-pre-inscriptions-2026-2027-dans-les-etablissements-a-acces-ouvert",
+    "annuaire": "https://www.uca.ma/fr/page/organigramme-et-annuaire",
+    "news_2026": "https://www.uca.ma/fr/news?s=2026",
+    "new_students": "https://www.uca.ma/fr/news/inscription-des-nouveaux-etudiants-au-titre-de-lannee-universitaire-2026-2027",
+    "digital": "https://www.uca.ma/fr/news/luniversite-cadi-ayyad-accelere-sa-transformation-digitale-a-travers-une-reunion-strategique-du-pole-digitalisation",
+    "initial_training": "https://www.uca.ma/fr/formations/formation-initiale",
+    "continuing_training": "https://www.uca.ma/fr/formations/formation-continue",
+    "international": "https://www.uca.ma/fr/page/mobilite-internationale",
+    "international_scholarships": "https://www.uca.ma/fr/page/bourses-internationales",
+    "erasmus_2026": "https://www.uca.ma/fr/mobilites/bourses-erasmus-2026-2027-5",
+    "erasmus_poitiers": "https://www.uca.ma/fr/mobilites/appel-a-candidature-universite-de-poitiers-france",
+    "preinscription": "https://preins.uca.ma/index",
+    "career_center": "https://www.uca.ma/Career-Center-UCA/fr",
+    "fssm": "https://www.uca.ma/fssm",
+    "este_exams": "https://www.uca.ma/este/fr/news/planning-des-examens-fin-de-semestre-s4-et-s2bachelor-20252026",
+    "rank_unirank": "https://www.uca.ma/fr/distinctions/luniversite-cadi-ayyad-confirme-son-leadership-dans-le-classement-unirank-2026",
+    "rank_cwur": "https://www.uca.ma/fr/distinctions/luniversite-cadi-ayyad-confirme-son-excellence-dans-le-classement-cwur-2026",
+    "job_fair": "https://www.uca.ma/fr/news/uca-regional-job-fair-2026-un-pont-vers-lavenir-professionnel-des-etudiants"
+  },
+  "university": {
+    "name": "Université Cadi Ayyad",
+    "short_name": "UCA",
+    "country": "Maroc",
+    "region": "Marrakech-Safi",
+    "website": "https://www.uca.ma/fr",
+    "slogan": "Innover, Apprendre, Rayonner",
+    "statistics_as_displayed": {
+      "students": 122000,
+      "teachers": 1794,
+      "administrative_staff": 859,
+      "programs": 301,
+      "partners": 292,
+      "note": "Chiffres affichés sur la page d'accueil consultée; à revalider régulièrement."
+    },
+    "establishment_distribution": {
+      "Marrakech": 10,
+      "Safi": 7,
+      "Essaouira": 1,
+      "El Kelaâ des Sraghna": 3,
+      "total": 21
+    },
+    "contact": {
+      "address": "Av Abdelkrim Khattabi, B.P. 511 - 40000, Maroc",
+      "phones": [
+        "+212 524 437 741",
+        "+212 524 434 814"
+      ],
+      "fax": "+212 5 24 43 44 94",
+      "email": "presidence@uca.ac.ma",
+      "source_url": "https://www.uca.ma/fr"
+    }
+  },
+  "establishments": [
+    {
+      "name": "Faculté des Sciences Semlalia Marrakech",
+      "short_name": "FSSM",
+      "city": "Marrakech",
+      "address": "Bd. Prince My Abdellah, B.P. 2390, 40000 Marrakech",
+      "phones": [
+        "+212 5 24 43 46 49",
+        "+212 5 24 43 67 69"
+      ],
+      "email": "fssm@uca.ac.ma",
+      "website": "https://www.uca.ma/fssm",
+      "source_url": "https://www.uca.ma/fr/etablissements"
+    },
+    {
+      "name": "Faculté d’Économie et de Gestion Marrakech",
+      "short_name": "FEGM",
+      "city": "Marrakech",
+      "website": "https://fegm.uca.ma",
+      "source_url": "https://www.uca.ma/fr/etablissements"
+    },
+    {
+      "name": "Faculté des Sciences Juridiques et Politiques Marrakech",
+      "short_name": "FSJPM",
+      "city": "Marrakech",
+      "website": "https://fsjpm.uca.ma",
+      "source_url": "https://www.uca.ma/fr/etablissements"
+    },
+    {
+      "name": "Faculté des Lettres et des Sciences Humaines Marrakech",
+      "short_name": "FLSH",
+      "city": "Marrakech",
+      "address": "Quartier Amerchich, B.P. 3737, 40000 Marrakech",
+      "phones": [
+        "+212 5 24 30 27 42",
+        "+212 5 24 30 20 39"
+      ],
+      "website": "https://flsh.uca.ma",
+      "source_url": "https://www.uca.ma/fr/etablissements"
+    },
+    {
+      "name": "École Nationale de Commerce et de Gestion Marrakech",
+      "short_name": "ENCG",
+      "city": "Marrakech",
+      "address": "Av. Allal El Fassi BP 3748 Amerchich – Marrakech",
+      "phones": [
+        "+212 5 24 30 46 92",
+        "+212 5 24 30 83 97"
+      ],
+      "email": "encg@uca.ac.ma",
+      "website": "https://www.uca.ma/encg",
+      "source_url": "https://www.uca.ma/fr/etablissements"
+    },
+    {
+      "name": "Faculté de Médecine et de Pharmacie Marrakech",
+      "short_name": "FMPM",
+      "city": "Marrakech",
+      "address": "Sidi Abbad, B.P. 7010, Marrakech 40000",
+      "phones": [
+        "+212 5 24 33 98 99",
+        "+212 5 24 43 28 87"
+      ],
+      "email": "fmpmcontact@uca.ac.ma",
+      "website": "https://www.fmpm.uca.ma/",
+      "source_url": "https://www.uca.ma/fr/etablissements"
+    },
+    {
+      "name": "Faculté des Sciences et Techniques Marrakech",
+      "short_name": "FST",
+      "city": "Marrakech",
+      "address": "Bd. Abdelkrim El Khattabi, B.P. 618 Guéliz, 40000 Marrakech",
+      "phones": [
+        "+212 5 24 43 31 63",
+        "+212 5 24 43 31 70"
+      ],
+      "website": "https://www.fstg-marrakech.ac.ma/FST/",
+      "source_url": "https://www.uca.ma/fr/etablissements"
+    },
+    {
+      "name": "École Nationale des Sciences Appliquées Marrakech",
+      "short_name": "ENSA Marrakech",
+      "city": "Marrakech",
+      "address": "Bd. Abdelkrim El Khattabi, B.P. 575 Guéliz, 40000 Marrakech",
+      "phones": [
+        "+212 5 24 43 47 45",
+        "+212 5 24 43 47 40"
+      ],
+      "website": "https://ensa-marrakech.uca.ma/",
+      "source_url": "https://www.uca.ma/fr/etablissements"
+    },
+    {
+      "name": "École Normale Supérieure Marrakech",
+      "short_name": "ENS",
+      "city": "Marrakech",
+      "address": "BP 2400 Hay Hassani, Route d’Essaouira, 40000 Marrakech",
+      "phones": [
+        "+212 5 24 34 01 25",
+        "+212 5 24 34 22 87"
+      ],
+      "email": "contact-ens@uca.ac.ma",
+      "website": "https://www.uca.ma/ens",
+      "source_url": "https://www.uca.ma/fr/etablissements"
+    },
+    {
+      "name": "Faculté de Langue Arabe Marrakech",
+      "short_name": "FLAM",
+      "city": "Marrakech",
+      "address": "Avenue Allal Fassi, B.P. 1483, Marrakech",
+      "phones": [
+        "+212 524 303 647"
+      ],
+      "email": "contact.flam@uca.ac.ma",
+      "website": "https://www.uca.ma/flam",
+      "source_url": "https://www.uca.ma/fr/etablissements"
+    },
+    {
+      "name": "Faculté des Sciences Appliquées Safi",
+      "short_name": "FSAS",
+      "city": "Safi",
+      "address": "Sidi Bouzid, B.P. 4162, 46000 Safi, Maroc",
+      "phones": [
+        "+212 5 24 66 93 57",
+        "+212 5 24 66 95 16"
+      ],
+      "website": "https://fsas.uca.ma/",
+      "source_url": "https://www.uca.ma/fr/etablissements"
+    },
+    {
+      "name": "Faculté des Sciences Humaines et Sociales Safi",
+      "short_name": "FSHSS",
+      "city": "Safi",
+      "address": "Sidi Bouzid, B.P. 4162, 46000 Safi, Maroc",
+      "phones": [
+        "+212 5 24 66 93 57",
+        "+212 5 24 66 95 16"
+      ],
+      "website": "https://fshss.uca.ma/",
+      "source_url": "https://www.uca.ma/fr/etablissements"
+    },
+    {
+      "name": "Faculté des Langues, Lettres et Arts Safi",
+      "short_name": "FLLAS",
+      "city": "Safi",
+      "address": "Sidi Bouzid, B.P. 4162, 46000 Safi, Maroc",
+      "phones": [
+        "+212 5 24 66 93 57",
+        "+212 5 24 66 95 16"
+      ],
+      "website": "https://fllas.uca.ma/",
+      "source_url": "https://www.uca.ma/fr/etablissements"
+    },
+    {
+      "name": "Faculté d’Économie et de Gestion Safi",
+      "short_name": "FEGS",
+      "city": "Safi",
+      "address": "Sidi Bouzid, B.P. 4162, 46000 Safi, Maroc",
+      "phones": [
+        "+212 5 24 66 93 57",
+        "+212 5 24 66 95 16"
+      ],
+      "website": "https://fegs.uca.ma/",
+      "source_url": "https://www.uca.ma/fr/etablissements"
+    },
+    {
+      "name": "Faculté des Sciences Juridiques et Politiques Safi",
+      "short_name": "FSJPS",
+      "city": "Safi",
+      "address": "Sidi Bouzid, B.P. 4162, 46000 Safi, Maroc",
+      "phones": [
+        "+212 5 24 66 93 57",
+        "+212 5 24 66 95 16"
+      ],
+      "website": "https://fsjps.uca.ma/",
+      "source_url": "https://www.uca.ma/fr/etablissements"
+    },
+    {
+      "name": "École Nationale des Sciences Appliquées Safi",
+      "short_name": "ENSAS",
+      "city": "Safi",
+      "address": "Route Sidi Bouzid, BP 63, 46000 Safi",
+      "phones": [
+        "+212 6 56 20 00 07",
+        "+212 5 24 66 80 12"
+      ],
+      "email": "ensas@uca.ac.ma",
+      "website": "https://ensas.uca.ma",
+      "source_url": "https://www.uca.ma/fr/etablissements"
+    },
+    {
+      "name": "École Supérieure de Technologie Safi",
+      "short_name": "ESTS",
+      "city": "Safi",
+      "address": "Route Dar Si Aïssa, B.P. 89, 46000 Safi",
+      "phones": [
+        "+212 5 24 62 50 53",
+        "+212 5 24 62 70 26"
+      ],
+      "email": "contact.ests@uca.ac.ma",
+      "website": "http://www.ests.uca.ma",
+      "source_url": "https://www.uca.ma/fr/etablissements"
+    },
+    {
+      "name": "École Supérieure de Technologie Essaouira",
+      "short_name": "ESTE",
+      "city": "Essaouira",
+      "address": "Km 9, Route d’Agadir, Essaouira Aljadida, BP 383, Essaouira",
+      "phones": [
+        "+212 5 24 79 20 64",
+        "+212 5 24 79 26 48"
+      ],
+      "email": "este@uca.ac.ma",
+      "website": "https://www.uca.ma/este",
+      "source_url": "https://www.uca.ma/fr/etablissements"
+    },
+    {
+      "name": "Faculté des Sciences Juridiques et Politiques El Kelaâ des Sraghna",
+      "short_name": "FSJPK",
+      "city": "El Kelaâ des Sraghna",
+      "address": "Bureau de Poste - Centre Ville, BP 263, Avenue Mohammed V",
+      "phones": [
+        "+212 5 24 41 44 98",
+        "+212 5 24 41 44 20"
+      ],
+      "website": "https://www.uca.ma/cuks",
+      "source_url": "https://www.uca.ma/fr/etablissements"
+    },
+    {
+      "name": "Faculté d’Économie et de Gestion El Kelaâ des Sraghna",
+      "short_name": "FEGK",
+      "city": "El Kelaâ des Sraghna",
+      "address": "Bureau de Poste - Centre Ville, BP 263, Avenue Mohammed V",
+      "phones": [
+        "+212 5 24 41 44 98",
+        "+212 5 24 41 44 20"
+      ],
+      "website": "https://www.uca.ma/cuks",
+      "source_url": "https://www.uca.ma/fr/etablissements"
+    },
+    {
+      "name": "École Supérieure de Technologie El Kelaâ des Sraghna",
+      "short_name": "ESTK",
+      "city": "El Kelaâ des Sraghna",
+      "address": "Route de Béni Mellal Km 8, B.P. 104, El Kelaâ des Sraghna",
+      "phones": [
+        "+212 5 24 41 65 86"
+      ],
+      "email": "contact-estk@uca.ac.ma",
+      "website": "http://www.estk.uca.ma",
+      "source_url": "https://www.uca.ma/fr/etablissements"
+    }
+  ],
+  "centres": [
+    {
+      "name": "Cité d’Innovation de Marrakech",
+      "short_name": "CIM",
+      "website": "https://cim.uca.ma/",
+      "category": "Recherche et innovation",
+      "source_url": "https://www.uca.ma/fr/centres"
+    },
+    {
+      "name": "Centre Code 212",
+      "short_name": "Code212",
+      "email": "code212@uca.ac.ma",
+      "website": "https://code212.uca.ma/",
+      "category": "Académique et pédagogie",
+      "source_url": "https://www.uca.ma/fr/centres"
+    },
+    {
+      "name": "Observatoire Universitaire d’Astronomie Cadi Ayyad",
+      "short_name": "OUCA",
+      "website": "https://ouca.uca.ma/an/index.php",
+      "category": "Recherche et innovation",
+      "source_url": "https://www.uca.ma/fr/centres"
+    },
+    {
+      "name": "Centre National d’Études et de Recherche sur l’Eau et l’Énergie",
+      "short_name": "CNEREE",
+      "website": "https://cneree.uca.ma/",
+      "category": "Recherche et innovation",
+      "source_url": "https://www.uca.ma/fr/centres"
+    },
+    {
+      "name": "Centre d’Analyse et de Caractérisation",
+      "short_name": "CAC",
+      "category": "Recherche et innovation",
+      "source_url": "https://www.uca.ma/fr/centres"
+    },
+    {
+      "name": "Centre National d’Études et de Recherche sur le Sahara",
+      "short_name": "CNERS",
+      "category": "Recherche et innovation",
+      "source_url": "https://www.uca.ma/fr/centres"
+    },
+    {
+      "name": "Centre d’Innovation Pédagogique",
+      "short_name": "CIP",
+      "website": "https://cip.uca.ma/",
+      "category": "Académique et pédagogie",
+      "source_url": "https://www.uca.ma/fr/centres"
+    },
+    {
+      "name": "Cité des langues et des cultures",
+      "short_name": "CiLC",
+      "category": "Académique et pédagogie",
+      "source_url": "https://www.uca.ma/fr/centres"
+    },
+    {
+      "name": "Bibliothèque Universitaire",
+      "short_name": "BiblioUniv",
+      "category": "Académique et pédagogie",
+      "source_url": "https://www.uca.ma/fr/centres"
+    },
+    {
+      "name": "Centre de l’Enseignement Inclusif et Responsabilité Sociale",
+      "short_name": "CEIRS",
+      "website": "https://ceirs.uca.ma/",
+      "category": "Insertion professionnelle et sociale",
+      "source_url": "https://www.uca.ma/fr/centres"
+    },
+    {
+      "name": "Career Center",
+      "short_name": "CareerCenter",
+      "website": "https://www.uca.ma/Career-Center-UCA/fr",
+      "category": "Insertion professionnelle et sociale",
+      "source_url": "https://www.uca.ma/fr/centres"
+    },
+    {
+      "name": "Muséum Dar Tiskiwin",
+      "short_name": "Tiskiwin",
+      "address": "8 Rue de la Bahia, Marrakech 40000",
+      "category": "Culture et patrimoine",
+      "source_url": "https://www.uca.ma/fr/centres"
+    },
+    {
+      "name": "Muséum d’Histoire Naturelle de Marrakech",
+      "short_name": "MHNM",
+      "address": "ENCG, Bd Allal Al Fassi, Marrakech",
+      "email": "contact@mhnm.ma",
+      "website": "https://www.mhnm.ma",
+      "category": "Culture et patrimoine",
+      "source_url": "https://www.uca.ma/fr/centres"
+    },
+    {
+      "name": "Herbier Régional",
+      "short_name": "MARK",
+      "category": "Culture et patrimoine",
+      "source_url": "https://www.uca.ma/fr/centres"
+    }
+  ],
+  "training_categories": {
+    "formation_initiale": [
+      "DEUG",
+      "DUT",
+      "Licence",
+      "Licence d’excellence",
+      "Master",
+      "Master d’excellence",
+      "Diplôme d’ingénieur d’État"
+    ],
+    "formation_continue": [
+      "Licence professionnelle d’université",
+      "Master d’université",
+      "Diplôme d’université",
+      "Certificat universitaire"
+    ],
+    "source_url": "https://www.uca.ma/fr/formations"
+  },
+  "admissions": [
+    {
+      "title": "Préinscriptions 2026-2027 dans les établissements à accès ouvert",
+      "published_date": "2026-08-02",
+      "academic_year": "2026-2027",
+      "start_date": "2026-08-01",
+      "end_date": "2026-08-31",
+      "portal": "https://preins.uca.ma",
+      "note": "Période historique annoncée officiellement; expirée à la date de collecte.",
+      "source_url": "https://www.uca.ma/fr/news/lancement-des-pre-inscriptions-2026-2027-dans-les-etablissements-a-acces-ouvert"
+    }
+  ],
+  "rag_documents": [
+    {
+      "document_id": "uca-home-overview",
+      "title": "Présentation générale de l’Université Cadi Ayyad",
+      "category": "institution",
+      "content": "L’Université Cadi Ayyad (UCA) est une université publique marocaine présente dans la région Marrakech-Safi. Le portail officiel indique 21 établissements universitaires : 10 à Marrakech, 7 à Safi, 1 à Essaouira et 3 à El Kelaâ des Sraghna. Les chiffres affichés sur la page d’accueil au moment de la collecte sont 122 000 étudiants, 1 794 enseignants, 859 personnels administratifs, 301 formations et 292 partenaires. Ces chiffres sont ceux affichés par le site et peuvent évoluer.",
+      "source_url": "https://www.uca.ma/fr",
+      "language": "fr",
+      "validity": "À revérifier périodiquement; statistiques dynamiques."
+    },
+    {
+      "document_id": "uca-contact-presidence",
+      "title": "Coordonnées de la Présidence de l’Université Cadi Ayyad",
+      "category": "contact",
+      "content": "Adresse : Av Abdelkrim Khattabi, B.P. 511 - 40000, Maroc. Téléphones : +212 524 437 741 et +212 524 434 814. Fax : +212 5 24 43 44 94. Courriel : presidence@uca.ac.ma.",
+      "source_url": "https://www.uca.ma/fr",
+      "language": "fr"
+    },
+    {
+      "document_id": "uca-offre-formation",
+      "title": "Catégories de formation de l’Université Cadi Ayyad",
+      "category": "formation",
+      "content": "Le portail UCA distingue la formation initiale et la formation continue. La formation initiale comprend notamment DEUG et DUT, Licence et Licence d’excellence, Master et Master d’excellence, ainsi que le diplôme d’ingénieur d’État. La formation continue comprend notamment Licence professionnelle d’université, Master d’université, Diplôme d’université et Certificat universitaire. Les conditions d’accès détaillées doivent être vérifiées sur la fiche de chaque formation.",
+      "source_url": "https://www.uca.ma/fr/formations",
+      "language": "fr"
+    },
+    {
+      "document_id": "uca-admissions-2026-2027",
+      "title": "Préinscriptions UCA 2026-2027 dans les établissements à accès ouvert",
+      "category": "admission",
+      "content": "Une annonce publiée le 2 août 2026 sur le site officiel de l’Université Cadi Ayyad indique que les préinscriptions des nouveaux bacheliers dans les établissements à accès ouvert pour l’année universitaire 2026-2027 sont ouvertes du 1er au 31 août 2026. La plateforme indiquée est https://preins.uca.ma. Les candidats sont invités à consulter les bassins de recrutement par établissement et par tronc commun. Cette échéance concerne la campagne 2026-2027 et ne doit pas être présentée comme une date future ou permanente.",
+      "source_url": "https://www.uca.ma/fr/news/lancement-des-pre-inscriptions-2026-2027-dans-les-etablissements-a-acces-ouvert",
+      "language": "fr",
+      "validity": "Historique; campagne 2026-2027, dates expirées au 31 août 2026."
+    },
+    {
+      "document_id": "uca-research-centres",
+      "title": "Centres et patrimoine de l’Université Cadi Ayyad",
+      "category": "research_and_culture",
+      "content": "Le portail UCA répertorie notamment la Cité d’Innovation de Marrakech (CIM), le Centre Code 212, l’Observatoire Universitaire d’Astronomie Cadi Ayyad (OUCA), le Centre National d’Études et de Recherche sur l’Eau et l’Énergie (CNEREE), le Centre d’Analyse et de Caractérisation (CAC), le Centre National d’Études et de Recherche sur le Sahara (CNERS), le Centre d’Innovation Pédagogique (CIP), la Cité des langues et des cultures, la Bibliothèque Universitaire, le Centre de l’Enseignement Inclusif et Responsabilité Sociale (CEIRS), le Career Center, le Muséum Dar Tiskiwin, le Muséum d’Histoire Naturelle de Marrakech et l’Herbier Régional.",
+      "source_url": "https://www.uca.ma/fr/centres",
+      "language": "fr"
+    },
+    {
+      "document_id": "uca-2026-new-students-timeline",
+      "title": "Rentrée universitaire UCA 2026-2027 : dates et accueil des nouveaux étudiants",
+      "category": "academic_calendar",
+      "content": "Selon l'annonce officielle publiée le 11 septembre 2026, la campagne d'inscription des nouveaux étudiants a commencé le 2 septembre et s'est poursuivie jusqu'au 11 septembre 2026. La rentrée administrative a commencé le 1er septembre 2026. Les cours des étudiants en semestres S3 et S5 ont commencé le 7 septembre 2026. Les cours des étudiants en S1 ont commencé le 14 septembre 2026. La semaine d'intégration s'est tenue du 14 au 18 septembre 2026. Le traitement des demandes de transfert d'inscription et de changement de filière était prévu du 21 au 25 septembre 2026. Ces dates concernent exclusivement l'année universitaire 2026-2027 et sont historiques à la date de collecte.",
+      "source_url": "https://www.uca.ma/fr/news/inscription-des-nouveaux-etudiants-au-titre-de-lannee-universitaire-2026-2027",
+      "published_date": "2026-09-11",
+      "academic_year": "2026-2027",
+      "language": "fr",
+      "validity": "Dates historiques, ne pas réutiliser pour une autre année."
+    },
+    {
+      "document_id": "uca-digital-services",
+      "title": "Services numériques de l'Université Cadi Ayyad",
+      "category": "digital_services",
+      "content": "Une communication officielle du 13 mai 2026 mentionne plusieurs projets et services numériques de l'UCA : Uc@Student, plateforme web et mobile dédiée aux services académiques et administratifs des étudiants ; Uc@Diplômes, gestion et suivi digitalisés des diplômes ; des plateformes de recherche scientifique pour les analyses, appels à projets, soutiens à la recherche et plateforme doctorale ; la digitalisation des démarches de mobilité internationale et des programmes Erasmus+ ; et des espaces numériques dédiés à la gestion des clubs étudiants. La même communication mentionne le renforcement des capacités d'hébergement, de la cybersécurité et de la gestion unifiée des services numériques. Pour accéder à un service, l'étudiant doit vérifier les modalités publiées par l'UCA ou son établissement.",
+      "source_url": "https://www.uca.ma/fr/news/luniversite-cadi-ayyad-accelere-sa-transformation-digitale-a-travers-une-reunion-strategique-du-pole-digitalisation",
+      "published_date": "2026-05-13",
+      "language": "fr"
+    },
+    {
+      "document_id": "uca-training-initial-sample",
+      "title": "Exemples de formations initiales UCA visibles dans le catalogue",
+      "category": "training",
+      "content": "Le catalogue de formation initiale consulté présente notamment les formations suivantes : Master Communication, médias et industries créatives à la Faculté Polydisciplinaire de Safi ; Master Enseignement des sciences de la vie et de la terre à l'École Normale Supérieure de Marrakech ; Master Physique des hautes énergies, astrophysique et sciences spatiales à la Faculté des Sciences Semlalia ; Master Intelligence artificielle à la Faculté des Sciences Semlalia ; Master Sciences mathématiques et applications à la Faculté des Sciences Semlalia ; Master Énergétique et environnement à la Faculté des Sciences Semlalia ; Master Contrôle informatique industriel, signaux et systèmes à la Faculté des Sciences Semlalia ; Master Food and cosmetic products engineering à la Faculté des Sciences Semlalia ; Master Géorisques, géomatique, géomatériaux et géoenvironnement à la Faculté des Sciences Semlalia ; Master Langues et traduction à la Faculté de Langue Arabe de Marrakech ; Master Didactique des sciences et ingénierie éducative à l'École Normale Supérieure de Marrakech. Il s'agit d'exemples relevés dans le catalogue, pas d'une liste exhaustive ni d'une garantie que toutes les candidatures sont ouvertes actuellement.",
+      "source_url": "https://www.uca.ma/fr/formations/formation-initiale",
+      "language": "fr",
+      "validity": "Vérifier l'ouverture de candidature et les conditions sur la fiche officielle de chaque formation."
+    },
+    {
+      "document_id": "uca-training-continuing-sample",
+      "title": "Exemples de formations continues UCA",
+      "category": "continuing_education",
+      "content": "Le catalogue de formation continue affiche notamment : Diplôme d'Université en Médecine, pédagogie médicale à la Faculté de Médecine et de Pharmacie de Marrakech ; Master d'Université Management des ressources humaines à l'ENCG Marrakech ; Licence Professionnelle d'Université Management financier des organisations, parcours hybride, à l'ENCG Marrakech ; Master d'Université Management de projet et marketing digital en mode hybride à l'ENCG Marrakech ; Licence Professionnelle d'Université Data sciences appliquées en management et économie ; Licence Professionnelle d'Université Logistique de distribution et supply chain management à l'ère de la digitalisation ; Master d'Université Cyber défense, infrastructures et protection des données à l'ENSA Marrakech ; Licence Professionnelle d'Université Ingénierie et management industriel à l'EST Safi ; Licence Professionnelle d'Université Ingénierie et conception des systèmes d'information à l'ENSA Safi ; Licence Professionnelle d'Université Ingénierie des réseaux web et cyber security à la Faculté des Sciences Semlalia. Le catalogue peut évoluer ; vérifier les conditions, frais, calendrier et ouverture sur la fiche officielle.",
+      "source_url": "https://www.uca.ma/fr/formations/formation-continue",
+      "language": "fr",
+      "validity": "Exemples de catalogue, disponibilité à confirmer."
+    },
+    {
+      "document_id": "uca-international-mobility",
+      "title": "Mobilité internationale à l'Université Cadi Ayyad",
+      "category": "international_mobility",
+      "content": "L'UCA présente plusieurs volets de mobilité internationale : Erasmus+ mobilité, accords d'échange, double diplomation, cotutelle de thèse, bourses internationales et événements à l'international. Les appels à candidatures sont spécifiques à une université partenaire, un niveau d'études, une discipline, une période et une date limite. Les étudiants doivent consulter l'appel concerné et vérifier les pièces exigées auprès du Bureau des Relations Internationales.",
+      "source_url": "https://www.uca.ma/fr/page/mobilite-internationale",
+      "language": "fr"
+    },
+    {
+      "document_id": "uca-erasmus-call-sept-2026",
+      "title": "Appel Erasmus+ 2026-2027 : opportunités publiées en septembre 2026",
+      "category": "scholarship",
+      "content": "Un appel UCA publié le 11 septembre 2026 pour l'année universitaire 2026-2027 mentionne des opportunités de mobilité Erasmus+ notamment à Vytautas Magnus University en Lituanie pour doctorants, Bialystok University of Technology en Pologne pour Master, Eötvös Lorand University en Hongrie pour Master et enseignants dans la spécialité histoire et littérature française, et l'Université de Saarlandes en Allemagne pour Master en sciences des matériaux. Les pièces listées comprennent formulaire de candidature, attestation d'inscription, CV et justificatifs, lettre de motivation, relevés de notes, contrat d'études signé, résumé de projet pour doctorants, lettre d'invitation recommandée, attestation de langue selon la langue d'enseignement et copie du passeport. Les dates limites indiquées étaient le 30 septembre 2026, et le 15 octobre 2026 pour Saarlandes ; elles sont échues à la date de collecte du 16 octobre 2026. Ne pas présenter cet appel comme encore ouvert.",
+      "source_url": "https://www.uca.ma/fr/mobilites/bourses-erasmus-2026-2027-5",
+      "published_date": "2026-09-11",
+      "academic_year": "2026-2027",
+      "language": "fr",
+      "validity": "Appel clôturé selon les dates publiées."
+    },
+    {
+      "document_id": "uca-poitiers-erasmus-oct-2026",
+      "title": "Appel de mobilité Erasmus+ vers l'Université de Poitiers",
+      "category": "scholarship",
+      "content": "Un appel publié le 13 octobre 2026 concerne une mobilité d'études à l'Université de Poitiers en France au deuxième semestre de l'année universitaire 2026-2027. La date limite de candidature indiquée est le 26 octobre 2026. Les conditions d'éligibilité, filières et niveaux sont renvoyés vers la plateforme de mobilité internationale UCA. La candidature doit être soumise en ligne et le dossier physique doit aussi être déposé auprès du Bureau des Relations Internationales / Cité d'Innovation. Cette information est datée et doit être revérifiée avant tout conseil de candidature.",
+      "source_url": "https://www.uca.ma/fr/mobilites/appel-a-candidature-universite-de-poitiers-france",
+      "published_date": "2026-10-13",
+      "academic_year": "2026-2027",
+      "deadline": "2026-10-26",
+      "language": "fr",
+      "validity": "Appel à échéance proche; vérifier la page officielle avant candidature."
+    },
+    {
+      "document_id": "uca-preinscription-portal-guidance",
+      "title": "Consignes du portail de préinscription UCA",
+      "category": "admission",
+      "content": "Le portail de préinscription UCA indique que, pour les établissements à accès ouvert, la préinscription est réservée aux nouveaux bacheliers de la session 2026. Les titulaires d'un baccalauréat antérieur sont invités à contacter directement leur établissement à partir du début du mois de septembre. Le portail distingue les parcours selon que le baccalauréat est marocain ou étranger. Les demandes d'équivalence ou de transfert passent par le portail dédié de l'établissement concerné. Le portail indique qu'une attestation d'assurance est exigée lors du dépôt du dossier ; pour les autres pièces, il faut consulter le portail de l'établissement choisi. Ces consignes peuvent changer à chaque campagne.",
+      "source_url": "https://preins.uca.ma/index",
+      "language": "fr",
+      "validity": "Consignes de la campagne 2026, à revalider pour les prochaines campagnes."
+    },
+    {
+      "document_id": "uca-international-scholarships-overview",
+      "title": "Bourses internationales : types d'opportunités relayées par l'UCA",
+      "category": "scholarship",
+      "content": "La page officielle des bourses internationales explique que l'UCA relaie des possibilités de bourses proposées par des gouvernements, organisations internationales et institutions partenaires, pour des séjours d'études, de recherche ou de formation à l'étranger. Les exemples présentés sur la page incluent des programmes liés à la Corée du Sud, aux bourses Eiffel, au Sénégal, au Japon et à d'autres partenaires. Les exemples peuvent concerner des années antérieures ; ils servent à identifier le type de ressources et ne doivent pas être interprétés comme des appels ouverts.",
+      "source_url": "https://www.uca.ma/fr/page/bourses-internationales",
+      "language": "fr",
+      "validity": "Page de référence; vérifier chaque appel et son année."
+    },
+    {
+      "document_id": "uca-research-career-and-student-life",
+      "title": "Recherche, insertion professionnelle et vie étudiante à l'UCA",
+      "category": "student_services",
+      "content": "Les pages et annonces officielles de l'UCA mentionnent des services et initiatives touchant la recherche, l'insertion professionnelle et la vie étudiante : Career Center, événements de recrutement comme l'UCA Regional Job Fair, clubs étudiants, espaces numériques pour la gestion des clubs, plateformes de recherche scientifique, appels à projets et dispositifs de soutien à la recherche. Pour les dates d'événements, inscriptions et critères d'accès, consulter l'annonce spécifique plutôt que d'utiliser une information générale.",
+      "source_url": "https://www.uca.ma/Career-Center-UCA/fr",
+      "language": "fr"
+    },
+    {
+      "document_id": "uca-ranking-unirank-2026",
+      "title": "Distinction UniRank 2026 mentionnée par l'UCA",
+      "category": "ranking",
+      "content": "Dans une page publiée le 5 juin 2026, l'UCA rapporte que l'édition UniRank 2026 la classe première université marocaine, 21e en Afrique et 24e dans le monde arabe. Il s'agit d'une distinction rapportée par l'UCA à propos d'un classement tiers ; conserver l'attribution à la source et ne pas présenter ces rangs comme un classement officiel du ministère.",
+      "source_url": "https://www.uca.ma/fr/distinctions/luniversite-cadi-ayyad-confirme-son-leadership-dans-le-classement-unirank-2026",
+      "published_date": "2026-06-05",
+      "language": "fr"
+    },
+    {
+      "document_id": "uca-ranking-cwur-2026",
+      "title": "Distinction CWUR 2026 mentionnée par l'UCA",
+      "category": "ranking",
+      "content": "Dans une page publiée le 3 juin 2026, l'UCA indique que le classement CWUR 2026 l'a placée dans les 5,3 % meilleures universités mondiales, 19e en Afrique et 2e au Maroc, avec un score global indiqué de 69,9. Cette information doit être attribuée au classement CWUR tel que rapporté par l'UCA, et peut varier selon les éditions.",
+      "source_url": "https://www.uca.ma/fr/distinctions/luniversite-cadi-ayyad-confirme-son-excellence-dans-le-classement-cwur-2026",
+      "published_date": "2026-06-03",
+      "language": "fr"
+    },
+    {
+      "document_id": "uca-2026-international-new-students",
+      "title": "Accueil et intégration des nouveaux étudiants UCA 2026-2027",
+      "category": "student_life",
+      "content": "Dans son annonce du 15 septembre 2026, l'UCA estime qu'environ 40 000 nouveaux étudiants sont attendus pour la rentrée 2026-2027. L'annonce met en avant les espaces d'accueil et d'orientation, l'accompagnement administratif, la présentation de l'offre de formation et des services sociaux, les bourses, les plateformes numériques, les clubs culturels, artistiques, sportifs et sociaux, ainsi que les journées d'intégration. L'université indique également une simplification des formalités d'inscription et une attention particulière aux étudiants internationaux et aux étudiants en situation de handicap.",
+      "source_url": "https://www.uca.ma/fr/news?s=2026",
+      "published_date": "2026-09-15",
+      "academic_year": "2026-2027",
+      "language": "fr"
+    }
+  ],
+  "newly_added_categories": [
+    "calendrier universitaire",
+    "services numériques",
+    "formations initiales",
+    "formation continue",
+    "mobilité internationale",
+    "bourses Erasmus+",
+    "préinscription",
+    "vie étudiante",
+    "classements rapportés par l'UCA"
+  ],
+  "collection_metadata": {
+    "collection_date": "2026-10-16",
+    "method": "Recherche de pages publiques officielles et structuration de résumés textuels sourcés",
+    "note": "Ce n'est pas un crawl exhaustif automatique. Les fiches résument les pages sources et conservent leurs URLs."
+  }
+}
