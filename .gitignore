@@ -40,3 +40,5 @@ desktop.ini
 *.pt
 *.onnx
 *.safetensors
+
+storage/rag/chroma/
